@@ -106,7 +106,7 @@ Además si se escribieran las credenciales directamente en archivos .js estas mi
 
 
 **4. Asociaciones.**
-Dentro de models/sequelize/index.js, Company y Contact tienen una relación de muchos a muchos, la llave foránea es companyId y se ubica en Contact, el alias contact nos permite identificar la asociación y usarla.
+Dentro de models/sequelize/index.js, Company tiene una relacion de muchos a muchos con Contact, la llave foránea es companyId y se ubica en Contact, el alias contacts nos permite identificar la asociación y usarla.
 
 
 
